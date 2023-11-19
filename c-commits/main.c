@@ -1,3 +1,4 @@
+#include "main.h"
 #include <ctype.h>
 #include <pcre.h>
 #include <stdarg.h>
@@ -16,7 +17,7 @@
 #endif
 
 #ifdef HAVE_PTHREAD_H
-//TODO: Need to include thread header
+#include <pthread.h>
 #endif
 
 #if defined(HAVE_PTHREAD_SETAFFINITY_NP) && defined(__FreeBSD__)
