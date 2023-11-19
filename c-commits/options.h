@@ -1,7 +1,7 @@
 #ifndef OPTIONS_H
 #define OPTIONS_H
 
-// #include <getopt.h> 
+#include "getopt.h"
 //TODO: Include header file from txt file
 
 
