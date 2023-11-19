@@ -86,7 +86,7 @@ function doMath(intbuF){
         rT **= intbuF;
     }
     else if (pF === '%'){
-        rT %= intbuF;
+        rT = Math.floor(rT) % Math.floor(intbuF);
     }
 }
 
