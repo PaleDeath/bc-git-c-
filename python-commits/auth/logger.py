@@ -1,4 +1,6 @@
-"""Set of functions for logging messages."""
+"""Set of functions for logging messages.
+module provides following functions:
+debug, info, warn, deprecation,error"""
 import sys
 import warnings
 from typing import Optional, Type
