@@ -155,8 +155,7 @@ body{
 }
 
 
-/*[WIP]*/
-/*.theme-switcher {
+.theme-switcher {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -217,6 +216,6 @@ body{
          translateX(26px);  
         background-color:#242424 !important
   }
-*/
-/*background: rgba(255, 255, 255, 0.95);
-    border: 2px solid rgba(255, 255, 255, 0.009);*/
+  
+background: rgba(255, 255, 255, 0.95);
+    border: 2px solid rgba(255, 255, 255, 0.009);
